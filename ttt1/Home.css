@@ -96,6 +96,24 @@
   margin: 20px auto 0;
 }
 
+.u-section-1 .u-image-5 {
+  background-image: linear-gradient(0deg, rgba(0,0,0,0.4), rgba(0,0,0,0.4)), url("images/michael-dziedzic-aQYgUYwnCsM-unsplash.jpg");
+  background-position: 50% 50%;
+}
+
+.u-section-1 .u-container-layout-5 {
+  padding: 30px 60px;
+}
+
+.u-section-1 .u-text-10 {
+  margin: 30px auto 0;
+}
+
+.u-section-1 .u-text-11 {
+  width: 409px;
+  margin: 20px auto 0;
+}
+
 .u-section-1 .u-carousel-control-1 {
   width: 38px;
   height: 38px;
@@ -138,6 +156,11 @@
     padding-left: 30px;
     padding-right: 30px;
   }
+
+  .u-section-1 .u-container-layout-5 {
+    padding-left: 30px;
+    padding-right: 30px;
+  }
 }
 
 @media (max-width: 767px) {
@@ -166,6 +189,11 @@
     padding-left: 10px;
     padding-right: 10px;
   }
+
+  .u-section-1 .u-container-layout-5 {
+    padding-left: 10px;
+    padding-right: 10px;
+  }
 }
 
 @media (max-width: 575px) {
@@ -182,6 +210,10 @@
   }
 
   .u-section-1 .u-text-9 {
+    width: 320px;
+  }
+
+  .u-section-1 .u-text-11 {
     width: 320px;
   }
 }

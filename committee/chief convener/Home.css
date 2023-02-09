@@ -3,16 +3,16 @@
 }
 
 .u-section-1 .u-text-1 {
-  --animation-custom_in-translate_x: -300px;
-  --animation-custom_in-scale: 1;
   text-shadow: 5px 4px 6px rgba(128,128,128,1);
   letter-spacing: 4px;
   background-image: none;
+  --animation-custom_in-translate_x: 300px;
+  --animation-custom_in-scale: 1;
   margin: 88px auto 0;
 }
 
 .u-section-1 .u-text-2 {
-  --animation-custom_in-translate_x: 300px;
+  --animation-custom_in-translate_x: -300px;
   --animation-custom_in-translate_y: 0px;
   --animation-custom_in-opacity: 0;
   --animation-custom_in-rotate: 0deg;
@@ -24,7 +24,7 @@
 }
 
 .u-section-1 .u-text-3 {
-  --animation-custom_in-translate_x: 300px;
+  --animation-custom_in-translate_x: -300px;
   --animation-custom_in-translate_y: 0px;
   --animation-custom_in-opacity: 0;
   --animation-custom_in-rotate: 0deg;
@@ -37,7 +37,7 @@
 }
 
 .u-section-1 .u-text-4 {
-  --animation-custom_in-translate_x: 300px;
+  --animation-custom_in-translate_x: -300px;
   --animation-custom_in-translate_y: 0px;
   --animation-custom_in-opacity: 0;
   --animation-custom_in-rotate: 0deg;
@@ -50,7 +50,7 @@
 }
 
 .u-section-1 .u-text-5 {
-  --animation-custom_in-translate_x: 300px;
+  --animation-custom_in-translate_x: -300px;
   --animation-custom_in-translate_y: 0px;
   --animation-custom_in-opacity: 0;
   --animation-custom_in-rotate: 0deg;
@@ -64,7 +64,7 @@
 }
 
 .u-section-1 .u-text-6 {
-  --animation-custom_in-translate_x: 300px;
+  --animation-custom_in-translate_x: -300px;
   --animation-custom_in-translate_y: 0px;
   --animation-custom_in-opacity: 0;
   --animation-custom_in-rotate: 0deg;

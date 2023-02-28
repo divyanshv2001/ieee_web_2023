@@ -10,7 +10,6 @@
   --animation-custom_in-opacity: 0;
   --animation-custom_in-rotate: 0deg;
   --animation-custom_in-scale: 1;
-  font-weight: 700;
   margin: 20px auto 0;
 }
 
@@ -195,6 +194,10 @@
 }
 
 @media (max-width: 1199px) {
+  .u-section-1 .u-text-1 {
+    font-weight: normal;
+  }
+
   .u-section-1 .u-text-2 {
     margin-right: 186px;
     margin-left: 142px;

@@ -1,5 +1,5 @@
 .u-section-1 .u-sheet-1 {
-  min-height: 897px;
+  min-height: 662px;
 }
 
 .u-section-1 .u-text-1 {
@@ -23,7 +23,7 @@
   --animation-custom_in-scale: 1;
   font-weight: 700;
   width: 546px;
-  margin: 54px auto 0;
+  margin: 51px auto 0;
 }
 
 .u-section-1 .u-text-3 {
@@ -36,53 +36,57 @@
   --animation-custom_in-scale: 1;
   font-weight: 700;
   width: 546px;
-  margin: 20px 297px 60px;
+  margin: 20px auto 60px;
 }
 
 @media (max-width: 1199px) {
+  .u-section-1 .u-sheet-1 {
+    min-height: 637px;
+  }
+
   .u-section-1 .u-text-1 {
     --animation-custom_in-opacity: 0;
     --animation-custom_in-rotate: 0deg;
+    margin-top: 60px;
   }
 
   .u-section-1 .u-text-2 {
-    width: auto;
-    margin-top: 44px;
-    margin-right: 237px;
-    margin-left: 197px;
+    margin-top: 57px;
   }
 
   .u-section-1 .u-text-3 {
-    margin-top: 30px;
-    margin-left: 197px;
-    margin-right: 197px;
+    margin-top: 21px;
   }
 }
 
 @media (max-width: 991px) {
-  .u-section-1 .u-text-2 {
-    margin-left: 87px;
-    margin-right: 127px;
+  .u-section-1 .u-sheet-1 {
+    min-height: 629px;
   }
 
-  .u-section-1 .u-text-3 {
-    margin-left: 87px;
-    margin-right: 87px;
+  .u-section-1 .u-text-2 {
+    margin-top: 50px;
   }
 }
 
 @media (max-width: 767px) {
+  .u-section-1 .u-sheet-1 {
+    min-height: 627px;
+  }
+
   .u-section-1 .u-text-1 {
     font-size: 3rem;
   }
 
   .u-section-1 .u-text-2 {
-    margin-right: 34px;
+    width: auto;
+    margin-top: 75px;
     margin-left: 0;
+    margin-right: 0;
   }
 
   .u-section-1 .u-text-3 {
-    width: 540px;
+    width: auto;
     margin-left: 0;
     margin-right: 0;
   }
@@ -90,23 +94,19 @@
 
 @media (max-width: 575px) {
   .u-section-1 .u-sheet-1 {
-    min-height: 593px;
+    min-height: 494px;
   }
 
   .u-section-1 .u-text-1 {
     width: auto;
     font-size: 1.5rem;
-    margin-top: 68px;
   }
 
   .u-section-1 .u-text-2 {
     font-size: 1.125rem;
-    margin-top: 40px;
-    margin-right: 0;
   }
 
   .u-section-1 .u-text-3 {
     font-size: 1.125rem;
-    width: auto;
   }
 }

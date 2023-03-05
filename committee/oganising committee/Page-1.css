@@ -89,35 +89,37 @@
 @media (max-width: 767px) {
   .u-section-1 .u-text-2 {
     width: auto;
-    margin-top: -313px;
+    margin-top: 50px;
   }
 
   .u-section-1 .u-text-3 {
     width: auto;
-    margin-top: 198px;
   }
 
   .u-section-1 .u-text-4 {
-    margin-top: -158px;
+    width: auto;
   }
 }
 
 @media (max-width: 575px) {
   .u-section-1 .u-text-1 {
     font-size: 2.8125rem;
+    width: auto;
+    margin-top: 9px;
+    margin-left: 0;
+    margin-right: 0;
   }
 
   .u-section-1 .u-text-2 {
     font-size: 1.25rem;
-    margin-top: 197px;
+    margin-top: 22px;
   }
 
   .u-section-1 .u-text-3 {
     font-size: 1.25rem;
-    margin-top: -332px;
   }
 
   .u-section-1 .u-text-4 {
-    margin-top: -138px;
+    margin-bottom: 42px;
   }
 }

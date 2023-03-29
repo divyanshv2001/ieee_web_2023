@@ -27,7 +27,24 @@
     .head{
       font-size: 30px;
     }
-    
+    .blink {
+      position: fixed;
+      animation: blinker 0.75s linear infinite;
+      color: rgb(0, 255, 60);
+      font-family: sans-serif;
+  }
+  @keyframes blinker {
+      25%{
+        opacity: 0.75;
+      }
+      50% {
+          opacity: 0.85;
+      }
+      100%{
+        opacity: 1;
+      }
+
+  }
   </style>
   <!-- CSS main file-->
   <link href="assets/css/style.css" rel="stylesheet">
@@ -192,7 +209,7 @@
       <p class="mb-4 pb-0">October 27<sup>th</sup> - 28<sup>th</sup>, 2023 , Presidency University , Bangalore</p>
       <!--<a href="https://www.youtube.com/watch?v=jDDaplaOz7Q" class="glightbox play-btn mb-4"></a>-->
       <a href="#about" class="about-btn scrollto">About The Event</a>
-    </div>
+      </div>
   </section><!-- End Hero Section -->
 
   <main id="main">
@@ -222,6 +239,7 @@
             <h3>When</h3>
             <p>Friday to Saturday<br>27<sup>th</sup> to 28<sup>th</sup> October</p>
           </div>
+          <div class="xa"><marquee class="blink" behavior="scroll" direction="right" scrollamount="12">Call for papers!! Submit on or before 1<sup>st</sup> June 2023   </marquee></div>
         </div>
       </div>
     </section><!-- End About Section -->

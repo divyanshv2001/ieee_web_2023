@@ -1518,6 +1518,7 @@
             </p>
 
             <div class="social-links">
+              <a href="#" onclick="goBack()">Go back</a>
               <a href="https://twitter.com/PresidencyUniv3" class="twitter"><i class="bi bi-twitter"></i></a>
               <a href="https://www.facebook.com/groups/595412577265151" class="facebook"><i class="bi bi-facebook"></i></a>
               <a href="https://instagram.com/presidencyuniversity?igshid=YWJhMjlhZTc=" class="instagram"><i class="bi bi-instagram"></i></a>
@@ -1550,7 +1551,14 @@
   <script src="assets/vendor/php-email-form/validate.js"></script>
   <!-- Template Main JS File -->
   <script src="assets/js/main.js"></script>
-
+  <script>
+    function goBack() {
+      window.history.back();
+      setTimeout(function() {
+        var element = document.getElementById("supporters");
+        element.scrollIntoView();
+      }, 500);
+    }
+  </script>
 </body>
-
 </html>

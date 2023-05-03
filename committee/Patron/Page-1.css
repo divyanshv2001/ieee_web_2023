@@ -20,12 +20,24 @@
   font-weight: 700;
   font-size: 1.5rem;
   --animation-custom_in-translate_x: -200px;
+  --animation-custom_in-translate_y: 0px;
+  --animation-custom_in-opacity: 0;
+  --animation-custom_in-rotate: 0deg;
   --animation-custom_in-scale: 1;
   text-transform: uppercase;
-  margin: 34px 174px 0 220px;
+  margin: 29px 174px 0 220px;
 }
 
 .u-section-1 .u-text-3 {
+  font-weight: 700;
+  font-size: 1.5rem;
+  --animation-custom_in-translate_x: -200px;
+  --animation-custom_in-scale: 1;
+  text-transform: uppercase;
+  margin: 20px 174px 0 220px;
+}
+
+.u-section-1 .u-text-4 {
   font-weight: 700;
   font-size: 1.5rem;
   --animation-custom_in-translate_x: -200px;
@@ -34,11 +46,25 @@
   --animation-custom_in-rotate: 0deg;
   --animation-custom_in-scale: 1;
   text-transform: uppercase;
-  margin: 15px 174px 60px 220px;
+  margin: 20px 174px 0 220px;
+}
+
+.u-section-1 .u-text-5 {
+  font-weight: 700;
+  font-size: 1.5rem;
+  --animation-custom_in-translate_x: -200px;
+  --animation-custom_in-scale: 1;
+  text-transform: uppercase;
+  margin: 20px 174px 60px 220px;
 }
 
 @media (max-width: 1199px) {
   .u-section-1 .u-text-2 {
+    margin-right: 74px;
+    margin-left: 120px;
+  }
+
+  .u-section-1 .u-text-3 {
     --animation-custom_in-translate_y: 0px;
     --animation-custom_in-opacity: 0;
     --animation-custom_in-rotate: 0deg;
@@ -46,7 +72,12 @@
     margin-left: 120px;
   }
 
-  .u-section-1 .u-text-3 {
+  .u-section-1 .u-text-4 {
+    margin-right: 74px;
+    margin-left: 120px;
+  }
+
+  .u-section-1 .u-text-5 {
     margin-right: 74px;
     margin-left: 120px;
   }
@@ -62,30 +93,52 @@
     margin-right: 0;
     margin-left: 0;
   }
+
+  .u-section-1 .u-text-4 {
+    margin-right: 0;
+    margin-left: 0;
+  }
+
+  .u-section-1 .u-text-5 {
+    margin-right: 0;
+    margin-left: 0;
+  }
 }
 
 @media (max-width: 767px) {
   .u-section-1 .u-text-2 {
     width: auto;
-    margin-top: 29px;
+    margin-top: 50px;
   }
 
   .u-section-1 .u-text-3 {
     width: auto;
-    margin-top: 20px;
+  }
+
+  .u-section-1 .u-text-4 {
+    width: auto;
   }
 }
 
 @media (max-width: 575px) {
   .u-section-1 .u-text-1 {
     font-size: 2.8125rem;
+    width: auto;
+    margin-top: 9px;
+    margin-left: 0;
+    margin-right: 0;
   }
 
   .u-section-1 .u-text-2 {
     font-size: 1.25rem;
+    margin-top: 22px;
   }
 
   .u-section-1 .u-text-3 {
     font-size: 1.25rem;
+  }
+
+  .u-section-1 .u-text-4 {
+    margin-bottom: 42px;
   }
 }

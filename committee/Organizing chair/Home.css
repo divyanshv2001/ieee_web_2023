@@ -15,7 +15,7 @@
 
 .u-section-1 .u-text-2 {
   font-size: 1.5rem;
-  text-transform: uppercase;
+  /*text-transform: uppercase;*/
   --animation-custom_in-translate_x: -300px;
   --animation-custom_in-translate_y: 0px;
   --animation-custom_in-opacity: 0;
@@ -28,7 +28,7 @@
 
 .u-section-1 .u-text-3 {
   font-size: 1.5rem;
-  text-transform: uppercase;
+  /*text-transform: uppercase;*/
   --animation-custom_in-translate_x: -300px;
   --animation-custom_in-translate_y: 0px;
   --animation-custom_in-opacity: 0;
@@ -41,7 +41,7 @@
 
 .u-section-1 .u-text-4 {
   font-size: 1.5rem;
-  text-transform: uppercase;
+  /*text-transform: uppercase;*/
   --animation-custom_in-translate_x: -300px;
   --animation-custom_in-translate_y: 0px;
   --animation-custom_in-opacity: 0;
@@ -55,7 +55,7 @@
 
 .u-section-1 .u-text-5 {
   font-size: 1.5rem;
-  text-transform: uppercase;
+  /*text-transform: uppercase;*/
   --animation-custom_in-translate_x: -300px;
   --animation-custom_in-translate_y: 0px;
   --animation-custom_in-opacity: 0;

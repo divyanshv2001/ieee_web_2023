@@ -20,7 +20,7 @@
   font-size: 1.5rem;
   --animation-custom_in-translate_x: -200px;
   --animation-custom_in-scale: 1;
-  text-transform: uppercase;
+  /* text-transform: uppercase; */
   margin: 34px 174px 0 220px;
 }
 
@@ -32,7 +32,7 @@
   --animation-custom_in-opacity: 0;
   --animation-custom_in-rotate: 0deg;
   --animation-custom_in-scale: 1;
-  text-transform: uppercase;
+  /* text-transform: uppercase; */
   margin: 15px 174px 0 220px;
 }
 
@@ -41,7 +41,7 @@
   font-size: 1.5rem;
   --animation-custom_in-translate_x: -200px;
   --animation-custom_in-scale: 1;
-  text-transform: uppercase;
+  /* text-transform: uppercase; */
   margin: 15px 174px 0 220px;
 }
 
@@ -50,7 +50,7 @@
   font-size: 1.5rem;
   --animation-custom_in-translate_x: -200px;
   --animation-custom_in-scale: 1;
-  text-transform: uppercase;
+  /* text-transform: uppercase; */
   margin: 15px 174px 60px 220px;
 }
 

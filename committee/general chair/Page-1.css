@@ -47,7 +47,7 @@
   font-size: 1.5rem;
   --animation-custom_in-translate_x: -200px;
   --animation-custom_in-scale: 1;
-  text-transform: uppercase;
+  /*text-transform: uppercase;*/
   margin: 20px 174px 0 220px;
 }
 
@@ -56,7 +56,7 @@
   font-size: 1.5rem;
   --animation-custom_in-translate_x: -200px;
   --animation-custom_in-scale: 1;
-  text-transform: uppercase;
+  /*text-transform: uppercase;*/
   margin: 20px 174px 0 220px;
 }
 
@@ -65,7 +65,7 @@
   font-size: 1.5rem;
   --animation-custom_in-translate_x: -200px;
   --animation-custom_in-scale: 1;
-  text-transform: uppercase;
+  /*text-transform: uppercase;*/
   margin: 20px 174px 20px 220px;
 }
 

@@ -172,13 +172,13 @@ h6 {
 
 #header #logo img {
   padding: 0;
-  margin: 0;
-  max-height: 40px;
+  margin: 5px;
+  max-height: 100px;
 }
 
 @media (max-width: 992px) {
   #header #logo img {
-    max-height: 30px;
+    max-height: 100px;
   }
 }
 

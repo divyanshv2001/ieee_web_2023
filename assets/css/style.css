@@ -715,7 +715,7 @@ h6 {
 }
 @media (max-device-width: 480px) {
   #about {
-      width: 400px;
+      width: auto;
   }
   #about {
       background: rgba(13, 20, 41, 0.8);

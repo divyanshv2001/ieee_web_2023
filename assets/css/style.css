@@ -681,10 +681,11 @@ h6 {
     background-attachment: fixed;
   }
 }
-
 #about:before {
   content: "";
   background: rgba(13, 20, 41, 0.8);
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
   position: absolute;
   bottom: 0;
   top: 0;
@@ -712,7 +713,15 @@ h6 {
   margin-bottom: 20px;
   color: #fff;
 }
-
+@media (max-device-width: 480px) {
+  #about {
+      width: 400px;
+  }
+  #about {
+      background: rgba(13, 20, 41, 0.8);
+      position: relative;
+  }
+}
 /*--------------------------------------------------------------
 # Speakers Section
 --------------------------------------------------------------*/

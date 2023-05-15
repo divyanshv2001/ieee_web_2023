@@ -17,6 +17,24 @@
         <link href="https://cdnjs.cloudflare.com/ajax/libs/SimpleLightbox/2.1.0/simpleLightbox.min.css" rel="stylesheet" />
         <!-- Core theme CSS (includes Bootstrap)-->
         <link href="css/styles.css" rel="stylesheet" />
+        <style>
+            .b11{
+                
+            }
+            .b1{
+    background-color: rgb(224, 54, 88);
+    font-family:Raleway,sans-serif;
+    color: aliceblue;
+    font-weight: 500;
+    font-size: 14px;
+    letter-spacing: 1px;
+    display: inline-block;
+    padding: 12px 32px;
+    border-radius: 50px;
+    border: 2px;
+    margin: 10px;
+            }
+        </style>
     </head>
     <body id="page-top">
         <!-- Navigation-->
@@ -44,10 +62,39 @@
                             COMMUNICATION, AUTOMATION, MANAGEMENT AND SECURITY</h2>
                         <hr class="divider" />
                     </div>
-                    <div class="col-lg-8 align-self-baseline">
-                        <!-- <p class="text-white-75 mb-5">Start Bootstrap can help you build better websites using the Bootstrap framework! Just download a theme and start customizing, no strings attached!</p> -->
-                        <a class="btn btn-primary btn-xl" href="https://iccams-presidencyuniversity.netlify.app">Find Out More</a>
-                    </div>
+                    <!-- <div class="col-lg-8 align-self-baseline">
+
+                        <a class="btn btn-primary btn-xl" href="https://iccams-presidencyuniversity.netlify.app">Click here</a>
+                    </div> -->
+                    <!-- <script src="https://cdn.jsdelivr.net/npm/canvas-confetti@1.5.1/dist/confetti.browser.min.js"></script> -->
+                    <script src="https://cdn.jsdelivr.net/npm/canvas-confetti@1.5.1/dist/confetti.browser.min.js"></script>
+                    <script>
+                        function dropConfetti() {
+                            let canvas = document.createElement("canvas");
+                            canvas.style.position = "fixed";
+                            canvas.style.top = "0";
+                            canvas.style.left = "0";
+                            canvas.style.width = "100%";
+                            canvas.style.height = "100%";
+                            document.body.appendChild(canvas);
+                
+                            let confettiEffect = confetti.create(canvas, {
+                                resize: true,
+                            });
+                            confettiEffect({
+                                particleCount: 1000,
+                                spread: 360,
+                                origin: { y: 1 },
+                                colors: ["#ff0000", "#00ff00", "#0000ff"], // Customize the colors here
+                            });
+
+                            setTimeout(() => {
+                                document.body.removeChild(canvas);
+                            }, 8000); // Adjust the duration (in milliseconds) the confetti will fall before clearing the canvas
+                        }
+                    </script>
+                    
+                   <div class="b11"><form action="https://iccams-presidencyuniversity.netlify.app"><button class="b1" onclick="dropConfetti()"><font color="white">Reveal Website</font></button></form></div> 
                 </div>
             </div>
         </header>

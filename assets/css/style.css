@@ -137,7 +137,7 @@ h6 {
 # Header
 --------------------------------------------------------------*/
 #header {
-  height: 90px;
+  height: 100px;
   position: fixed;
   left: 0;
   top: 0;
@@ -173,7 +173,7 @@ h6 {
 #header #logo img {
   padding: 0;
   margin: 5px;
-  max-height: 100px;
+  max-height:80px;
 }
 
 @media (max-width: 992px) {

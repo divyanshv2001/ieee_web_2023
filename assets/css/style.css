@@ -96,7 +96,7 @@ h6 {
 /* Sections Header
 --------------------------------*/
 .section-header {
-  margin-bottom: 60px;
+  margin-bottom: 25px;
   position: relative;
   padding-bottom: 20px;
 }
@@ -1346,9 +1346,21 @@ h6 {
 # Sponsors Section
 --------------------------------------------------------------*/
 #supporters {
-  padding: 60px 0;
+  padding: 10px 0;
 }
-
+.com{
+  /* background-color: #040919; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 165vh;
+  width: 100%;
+  padding: 0px 20px;
+}
+.com #pdfViewer{
+  height: 100%;
+  width: 58%;
+}
 #supporters .supporters-wrap {
   border-top: 1px solid #e0e5fa;
   border-left: 1px solid #e0e5fa;
